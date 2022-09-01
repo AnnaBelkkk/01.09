@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+@font-face {
+    font-family: "Lobster regilar";
+    src: url(fonts/Lobster);
+}
+
 .container{
     border: 1px solid black;
     margin: auto;
@@ -7,4 +14,42 @@
 .img1{
     width: 50px;
     height: 50px;
+}
+.header__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+.header__nav{
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    width: 70%;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color:black ;
+}
+.main__tittle{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+.main__text{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.info2{
+    background-color: bisque;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin-left:10px ;
+}
+.input1{
+    margin-left: 20px;
+    width: 500px;
 }
